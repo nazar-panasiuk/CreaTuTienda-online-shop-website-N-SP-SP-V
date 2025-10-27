@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CreaTuTienda</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="plataformas para crear tiendas online, construir ecommerce, soluciones ecommerce, herramientas de venta online"
+            name="keywords"
+        />
+        <meta
+            content="Descubre las mejores plataformas para construir tu tienda online. Crea, gestiona y optimiza tu comercio electrónico de manera fácil y profesional."
+            name="description"
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="bg-white p-0">
+            <!-- Spinner Start -->
+            <div
+                id="spinner"
+                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+            >
+                <div
+                    class="spinner-border text-primary"
+                    style="width: 3rem; height: 3rem"
+                    role="status"
+                >
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <!-- Spinner End -->
+
+            <!-- Navbar Start -->
+            <nav
+                class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+            >
+                <a
+                    href="index.html"
+                    class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5"
+                >
+                    <h1 class="m-0 text-primary">CreaTuTienda</h1>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-4"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link"
+                            >Inicio</a
+                        >
+                        <a href="index.html#about" class="nav-item nav-link"
+                            >Sobre Nosotros</a
+                        >
+                        <a href="index.html#service" class="nav-item nav-link"
+                            >Servicios</a
+                        >
+                        <a href="product.html" class="nav-item nav-link"
+                            >Producto</a
+                        >
+
+                        <a href="index.html#features" class="nav-item nav-link"
+                            >Características</a
+                        >
+                        <a href="index.html#contact" class="nav-item nav-link"
+                            >Contacto</a
+                        >
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+            <!-- Carousel Start -->
+            <div class="container-fluid p-0">
+                <div class="owl-carousel header-carousel position-relative">
+                    <div class="owl-carousel-item position-relative">
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-1.jpg"
+                            alt=""
+                        />
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                            style="background: rgba(43, 57, 64, 0.5)"
+                        >
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-10 col-lg-8">
+                                        <h1
+                                            class="display-3 text-white animated slideInDown mb-4"
+                                        >
+                                            Crea tu tienda online fácilmente
+                                        </h1>
+                                        <p
+                                            class="fs-5 fw-medium text-white mb-4 pb-2"
+                                        >
+                                            Descubre nuestras plataformas para
+                                            construir y administrar tu tienda
+                                            online de manera rápida, segura y
+                                            profesional. Gestiona productos,
+                                            pagos y envíos desde un solo lugar.
+                                        </p>
+                                        <a
+                                            href="#contact"
+                                            class="btn btn-primary py-3 px-5"
+                                            >Solicita información</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img
+                            class="img-fluid"
+                            src="img/carousel-2.jpg"
+                            alt=""
+                        />
+                        <div
+                            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                            style="background: rgba(43, 57, 64, 0.5)"
+                        >
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-10 col-lg-8">
+                                        <h1
+                                            class="display-3 text-white animated slideInDown mb-4"
+                                        >
+                                            Soluciones profesionales para tu
+                                            e-commerce
+                                        </h1>
+                                        <p
+                                            class="fs-5 fw-medium text-white mb-4 pb-2"
+                                        >
+                                            Accede a herramientas modernas para
+                                            crear y optimizar tu tienda online.
+                                            Nuestro objetivo es ayudarte a
+                                            vender más y gestionar todo tu
+                                            negocio digital de forma eficiente.
+                                        </p>
+                                        <a
+                                            href="#contact"
+                                            class="btn btn-primary py-3 px-5"
+                                            >Solicita información</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+
+            <!-- Search Start -->
+            <div
+                class="container-fluid bg-primary mb-5 wow fadeIn"
+                data-wow-delay="0.1s"
+                style="padding: 35px"
+            ></div>
+            <!-- Search End -->
+
+            <!-- About Start -->
+            <div id="about" class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div
+                                class="row g-0 about-bg rounded overflow-hidden"
+                            >
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid w-100"
+                                        src="img/about-1.jpg"
+                                    />
+                                </div>
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/about-2.jpg"
+                                        style="width: 85%; margin-top: 15%"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/about-3.jpg"
+                                        style="width: 85%"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid w-100"
+                                        src="img/about-4.jpg"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                            <h1 class="mb-4">
+                                Plataformas confiables para tu tienda online
+                            </h1>
+                            <p class="mb-4">
+                                Descubre las mejores soluciones para crear,
+                                administrar y optimizar tu comercio electrónico.
+                                Nuestras plataformas facilitan la gestión de
+                                productos, pagos, envíos y marketing digital
+                                desde un solo panel de control.
+                            </p>
+                            <p class="mb-4">
+                                Con herramientas intuitivas y soporte
+                                especializado, te ayudamos a impulsar tus ventas
+                                y a ofrecer una experiencia de compra
+                                profesional a tus clientes. Empieza hoy y
+                                transforma tu negocio en línea.
+                            </p>
+                            <a
+                                href="#contact"
+                                class="btn btn-primary py-3 px-5"
+                            >
+                                Solicita una demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Services Start -->
+            <div id="service" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Servicios profesionales para tiendas online
+                    </h1>
+                    <p class="mb-5 text-center">
+                        Ofrecemos soluciones avanzadas para crear, gestionar y
+                        optimizar tu tienda online. Nuestro equipo de expertos
+                        te ayuda a aprovechar las mejores herramientas y
+                        tendencias del comercio electrónico para impulsar tus
+                        ventas.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-chart-pie text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">Análisis de mercado</h6>
+                                <p class="mb-0">
+                                    Proporcionamos estudios detallados sobre
+                                    tendencias de comercio electrónico,
+                                    ayudándote a identificar oportunidades de
+                                    crecimiento para tu tienda online.
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-robot text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">Optimización de ventas</h6>
+                                <p class="mb-0">
+                                    Ofrecemos asesoramiento personalizado para
+                                    mejorar la estrategia de tu tienda online,
+                                    aumentando conversiones y fidelizando
+                                    clientes.
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-lightbulb text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">
+                                    Implementación de funcionalidades
+                                </h6>
+                                <p class="mb-0">
+                                    Te ayudamos a integrar herramientas y
+                                    funciones clave para mejorar la experiencia
+                                    de compra y gestionar tu tienda de manera
+                                    eficiente.
+                                </p>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <a class="cat-item rounded p-4" href="">
+                                <i
+                                    class="fa fa-3x fa-headset text-primary mb-4"
+                                ></i>
+                                <h6 class="mb-3">
+                                    Soporte directo con expertos
+                                </h6>
+                                <p class="mb-0">
+                                    Accede a asistencia profesional en todo
+                                    momento para resolver dudas y optimizar el
+                                    funcionamiento de tu tienda online.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Services End -->
+
+            <!-- Features Start -->
+            <div id="features" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Características destacadas de nuestras plataformas
+                    </h1>
+                    <p class="text-center mb-5">
+                        Nuestras plataformas incluyen funcionalidades avanzadas
+                        para gestionar productos, pagos, envíos y marketing,
+                        ofreciendo una experiencia completa para tus clientes.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/features-1.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Gestión completa de productos
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Administra tus productos, categorías e
+                                        inventario de forma sencilla y eficiente
+                                        desde un panel intuitivo.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/features-2.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Marketing y ventas optimizadas
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Integra herramientas de marketing
+                                        digital y análisis de datos para mejorar
+                                        las conversiones y fidelizar clientes.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features End -->
+
+            <!-- Testimonial Start -->
+            <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <h1 class="text-center">Qué dicen nuestros clientes</h1>
+                    <p class="text-center mb-5">
+                        Nuestros clientes han mejorado su comercio electrónico
+                        con nuestras plataformas. Sus experiencias reflejan el
+                        valor real de nuestras soluciones en el crecimiento de
+                        sus tiendas online.
+                    </p>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Gracias a la plataforma, pude organizar todos
+                                mis productos y mejorar la experiencia de compra
+                                de mis clientes. La gestión es mucho más
+                                sencilla y eficiente."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-2.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Carlos Martínez</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "El soporte del equipo fue fundamental para
+                                configurar mi tienda online correctamente. Las
+                                herramientas son intuitivas y profesionales."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-1.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Lucía García</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Implementar esta plataforma me permitió
+                                aumentar las ventas y mejorar la experiencia del
+                                cliente. Totalmente recomendable."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-4.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Fernando López</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-4">
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                "Las funcionalidades y el soporte fueron clave
+                                para que mi tienda online funcione sin problemas
+                                y con gran eficiencia."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded"
+                                    src="img/testimonial-3.jpg"
+                                    style="
+                                        width: 50px;
+                                        height: 50px;
+                                        object-fit: cover;
+                                    "
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">María Fernández</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+            <!-- Caracteristici Start -->
+            <div id="features" class="container-xxl py-5">
+                <div class="container">
+                    <h1 class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        Funcionalidades clave para tu tienda online
+                    </h1>
+                    <p class="text-center mb-5">
+                        Descubre cómo nuestras plataformas facilitan la
+                        creación, gestión y optimización de tu tienda online,
+                        brindándote herramientas modernas para mejorar la
+                        experiencia de tus clientes y aumentar tus ventas.
+                    </p>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Gestión completa de productos
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Administra tus productos, categorías y
+                                        stock de manera eficiente, manteniendo
+                                        todo organizado y accesible desde un
+                                        panel intuitivo.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <a class="cat-item rounded">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    style="width: 100%"
+                                    alt=""
+                                />
+                                <div class="p-4">
+                                    <h6 class="mb-3">
+                                        Herramientas de marketing y ventas
+                                    </h6>
+                                    <p style="color: #333" class="mb-0">
+                                        Potencia tus ventas con integraciones de
+                                        marketing digital, análisis de clientes
+                                        y estrategias de fidelización adaptadas
+                                        a tu tienda online.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Caracteristici Sfârșit -->
+
+            <!-- Contact Start -->
+            <div id="contact" class="container-xxl py-5">
+                <div class="container">
+                    <h1
+                        class="text-center mb-5 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        Contacta con nosotros para cualquier consulta
+                    </h1>
+                    <div class="row g-4">
+                        <div class="col-md-12">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1518.5218079400397!2d-3.6747055016052244!3d40.4300331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228b7594192c7%3A0x81d66df60846b9a0!2sBLC%20Spain%20-%20Business%20and%20Language%20College%20Spain!5e0!3m2!1suk!2sua!4v1761575386418!5m2!1suk!2sua"
+                                width="100%"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                            <div class="wow fadeInUp" data-wow-delay="0.5s">
+                                <form action="thanks.html" method="get">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="name"
+                                                    placeholder="Tu nombre"
+                                                    required
+                                                />
+                                                <label for="name"
+                                                    >Tu nombre</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="email"
+                                                    class="form-control"
+                                                    id="email"
+                                                    placeholder="Tu email"
+                                                    required
+                                                />
+                                                <label for="email"
+                                                    >Tu email</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="subject"
+                                                    placeholder="Asunto"
+                                                    required
+                                                />
+                                                <label for="subject"
+                                                    >Asunto</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea
+                                                    class="form-control"
+                                                    placeholder="Deja tu mensaje aquí"
+                                                    id="message"
+                                                    style="height: 150px"
+                                                    required
+                                                ></textarea>
+                                                <label for="message"
+                                                    >Mensaje</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button
+                                                class="btn btn-primary w-100 py-3"
+                                                type="submit"
+                                                id="submit"
+                                            >
+                                                Enviar mensaje
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+            <!-- Footer Start -->
+            <div
+                class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-4">
+                                CreaTuTienda - Soluciones de Comercio Online
+                            </h5>
+                            <p>
+                                Gracias por visitarnos. Ofrecemos plataformas
+                                avanzadas para crear, gestionar y optimizar tu
+                                tienda online. Explora herramientas modernas
+                                para mejorar la experiencia de tus clientes y
+                                aumentar tus ventas.
+                            </p>
+                            <p>
+                                ⚠️ Aviso de riesgos: El éxito de tu tienda
+                                depende de la correcta gestión, contenido y
+                                promoción. No garantizamos resultados
+                                específicos; el desempeño puede variar según tu
+                                estrategia y acciones.
+                            </p>
+                            <p>
+                                C. de Montesa, 35, 2 izquierda, apt. 1,
+                                Salamanca, 28006 Madrid
+                            </p>
+                            <p>
+                                Email:
+                                <a
+                                    href="mailto:crea_tutienda@gmail.com"
+                                    class="text-white-50"
+                                    >crea_tutienda@gmail.com</a
+                                >
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-4">Enlaces rápidos</h5>
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="index.html"
+                                >Inicio</a
+                            >
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="privacy-policy.html"
+                                >Política de privacidad</a
+                            >
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="terms-of-use.html"
+                                >Términos y condiciones</a
+                            >
+                            <a
+                                class="btn btn-link text-white-50"
+                                href="cookie-policy.html"
+                                >Política de cookies</a
+                            >
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h5 class="text-white mb-4">Contacto</h5>
+                            <p class="mb-2">
+                                <i class="fa fa-phone-alt me-3"></i>+34912196991
+                            </p>
+                            <p class="mb-2">
+                                <i class="fa fa-envelope me-3"></i
+                                ><a
+                                    href="mailto:crea_tutienda@gmail.com"
+                                    class="text-white-50"
+                                    >crea_tutienda@gmail.com</a
+                                >
+                            </p>
+                            <p class="mb-0">
+                                Horario de atención: Lunes a Viernes, 9:00 -
+                                18:00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a
+                href="#"
+                class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            >
+                <i class="bi bi-arrow-up"></i>
+            </a>
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">
+                        Consentimiento de cookies
+                    </h2>
+                </div>
+                <div class="data">
+                    <p>
+                        Este sitio utiliza cookies para ofrecerte una
+                        experiencia de navegación más eficiente y personalizada.
+                        <a href="cookie-policy.html">Más información...</a>
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Aceptar
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Rechazar
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
